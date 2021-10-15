@@ -1,0 +1,96 @@
+body {
+      width: 100%;
+  margin: 0
+font-family: sans-serif
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 23px;
+  background-color: silver;
+      width: 98%;
+}
+}
+header .logo{
+
+}
+
+header .registrarse{
+  display: flex;
+font-size: 17px;
+align-items: center;
+}
+}
+}
+header .registrarse img{
+}
+header .registrarse p{
+}
+nav {
+  background-color: black;
+      width: 100%;
+}
+nav ul{
+  list-style: none;
+
+  padding: 0;
+  margin: 0;
+  display: flex;
+justify-content: flex-end;
+}
+nav ul li{
+
+}
+nav ul li a{
+  color: white;
+  text-decoration: none;
+  font-size: 21px;
+  padding: 37px;
+  display: block;
+}
+nav ul li a:hover:before{
+  color: 0f0;
+width: 100%
+
+}
+section .slider{
+  width: 100%;
+}
+}
+main {
+  justify-content: space-between;
+  display: flex;
+  padding: 20px;
+  grid-gap: 10px;
+  align-items: center;
+
+}
+footer {
+  background-color: black;
+      color: floralwhite;
+      text-align: center;
+      padding: 20px 20px 60px;
+      font-size: x-large;
+}
+@media screen and (max-widh: 499px){
+main{
+  flex-direction: column-reverse;
+display: flex;
+}
+main .imagenlateral img {
+  width: 100%;
+}
+
+
+@media screen and (max-widh: 499px){
+main{
+      flex-direction: column-reverse;
+}
+main .imagenlateral img {
+  width: 100%;
+}
+header{
+  flex-direction: column;
+}
+}
